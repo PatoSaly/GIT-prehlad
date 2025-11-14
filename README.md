@@ -18,7 +18,7 @@ git config --global user.email "Email"
 ---
 
 ### Základné príkazy
-Vytvorím lokálny repozitár.
+Vytvoriť lokálny repozitár.
 ```
 git init
 ```  
@@ -26,21 +26,21 @@ Stav projektu - čo sa zmenilo.
 ```
 git status
 ```
-Pridám súbor, ktorý chcem mať v novej verzii. 
+Pridať súbor, ktorý má byť v novej verzii. 
 ```
 git add index.html 
 git add .
 ```
-Vytvorím novú verziu. 🎉 **Vždy pridám popis!**
+Vytvoriť novú verziu. 🎉 **Vždy pridať popis!**
 ```
 git commit -m ""
 ```
 
 ---
 
-#### Ďalšie príkazy
+### Ďalšie príkazy
 
-Zruším pridanie súborov.
+Zrušiť pridanie súborov.
 ```
 git restore --staged .
 ```
@@ -65,7 +65,7 @@ git checkout master         : vratim sa na koniec
 
 ---
 
-#### GIT vo VS Code
+### GIT vo VS Code
 
 ---
 
@@ -75,7 +75,7 @@ Naklonovanie existujúceho repozitára zo servera.
 git clone https://github.com/...
 ```
 
-Vytvorit odkaz na konkrétny repozitár na serveri.
+Vytvoriť odkaz na konkrétny repozitár na serveri.
 ```
 git remote add origin https://...
 ```
@@ -97,11 +97,11 @@ git remote update
 ```
 ---
 
-#### Konflikt  
+### Konflikt  
 
 ---
 
-#### Vetvy 
+### Vetvy 
 
 Zobraziť všetky vetvy.
 ```
@@ -135,6 +135,8 @@ git merge dalsia_branch
 #### Gitignore
 
 [.gitignore generator](https://www.toptal.com/developers/gitignore)
+
+--- 
 
 #### Conventional Commits
 
