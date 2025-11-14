@@ -135,3 +135,21 @@ git merge dalsia_branch
 #### Gitignore
 
 [.gitignore generator](https://www.toptal.com/developers/gitignore)
+
+#### Conventional Commits
+
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+Type:
+- feat:
+- fix:
+- build:, chore:, ci:, docs:, style:, refactor:, perf:, test:
+
+
