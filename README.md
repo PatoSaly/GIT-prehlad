@@ -150,8 +150,12 @@ git merge dalsia_branch
 ```
 
 Type:
-- feat:
-- fix:
-- build:, chore:, ci:, docs:, style:, refactor:, perf:, test:
+- feat – nová funkcionalita (feature)
+- fix – oprava chyby (bug fix)
+- docs – dokumentácia
+- style – zmeny, ktoré nemenia logiku (formátovanie, medzery)
+- refactor – zmena kódu bez opravy chyby alebo pridania funkcie
+- test – pridanie alebo úprava testov
+- chore – údržba, build, konfigurácia
 
 
